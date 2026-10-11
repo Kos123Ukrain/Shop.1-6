@@ -1,0 +1,165 @@
+:root {
+    --text-aksent: #779611;
+    --text-color: #000000;
+    --text-button: #F9F9F9;
+    --text-light: #707070;
+    --main-accent-color: #779611;
+    --main-text-color: #000000;
+    --second-text-color: #707070;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+.logo,
+.aboutus span,
+.title,
+.hero_title,
+.section_title {
+    font-family: "Exo 2", sans-serif;
+    color: var(--text-aksent, var(--main-accent-color));
+}
+
+.container {
+    max-width: 1750px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+header {
+    height: 120px;
+    display: flex;
+}
+
+header .container {
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+footer {
+    background: #f7f7f2;
+    padding: 60px 0 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-menu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 40px;
+    list-style: none;
+}
+
+.footer-submenu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-submenu li a {
+    font-family: "Montserrat", sans-serif;
+    color: var(--text-color, var(--main-text-color));
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-submenu li:first-child a {
+    font-weight: 600;
+    color: var(--text-color, var(--main-text-color));
+}
+
+.footer-text a {
+    font-family: "Montserrat", sans-serif;
+    color: var(--text-color, var(--main-text-color));
+    text-decoration: none;
+}
+
+.container-footer {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 250px;
+    justify-content: center;
+}
+
+.superscript {
+    vertical-align: super;
+    font-size: 0.75em;
+    line-height: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+footer {
+    background: #f7f7f2;
+    padding: 60px 0 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-menu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 40px;
+    list-style: none;
+}
+
+.footer-submenu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-submenu li a {
+    font-family: "Montserrat", sans-serif;
+    color: var(--text-color, var(--main-text-color));
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-submenu li:first-child a {
+    font-weight: 600;
+}
